@@ -106,3 +106,81 @@ footer p {
     color: #ffffff;
     text-align: center;
 }
+
+@media (max-width: 1000px) {
+    .header {
+    height: calc(100vw / 0.8);
+}
+.headfilter {
+    background-color: rgb(0, 0, 0, 0.65);
+    width: 100%;
+    display: grid;
+    height: 100%;
+}
+.header h1 {
+    font-size: calc(100vw / 10);
+}
+.maintxt {
+    font-size: calc(100vw / 20);
+    text-align: center;
+    width: 60%;
+}
+.pmaintxt {
+    margin-top: calc(100vw / 40);
+}
+.structure {
+    font-size: calc(100vw / 20);
+    display: grid;
+    width: 60%;
+    margin-top: 2%;
+}
+.structure h1 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.peoplestr {
+    font-size: calc(100vw / 30);
+    display: block;
+    text-align: center;
+}
+.peoplestr img {
+    width: 90%;
+    margin-top: 5%;
+    display: grid;
+}
+.people1 {  
+    font-size: calc(100vw / 30);
+}
+.peoplestr2 {
+    font-size: calc(100vw / 30);
+    display: block;
+    text-align: center;
+    width: 70%;
+}
+.peoplestr2 img {
+    display: grid;
+}
+.quote h1 {
+    font-size: calc(100vw / 10);
+}
+.quote p {
+    text-align: center;
+    font-weight: 600;
+    font-size: calc(100vw / 20);
+}
+.smalltxt {
+    font-weight: 500;
+    font-size: calc(100vw / 40);
+    margin-top: 2%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+footer {
+    display: grid;
+    height: calc(100vw / 10);
+}
+footer p {
+    color: #ffffff;
+    text-align: center;
+}
+}

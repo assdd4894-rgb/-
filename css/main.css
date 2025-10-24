@@ -123,7 +123,7 @@ footer p {
 .maintxt {
     font-size: calc(100vw / 20);
     text-align: center;
-    width: 100%;
+    width: 60%;
 }
 .pmaintxt {
     margin-top: calc(100vw / 40);
@@ -131,7 +131,7 @@ footer p {
 .structure {
     font-size: calc(100vw / 20);
     display: grid;
-    width: 60%;
+    width: 100%;
     margin-top: 2%;
 }
 .structure h1 {
@@ -184,4 +184,5 @@ footer p {
     text-align: center;
 }
 }
+
 

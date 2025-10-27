@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: auto;
+    padding: auto;
+}
+body {
+    font-family: "Noto Sans", sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+header {
+    display: grid;
+}
+header nav {
+    width: 100%;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    font-size: calc(100vw / 60);
+    height: 5%;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+}
+header nav ul {
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+}
+header nav ul li {
+    display: inline;
+}
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    -webkit-transition: all 0.5s ease;
+        transition: all 0.5s ease; 
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    font-size: calc(100vw / 55);
+}
+.header {
+    background-image: url(../image/fon.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    color: #dbadad;
+    text-align: center;
+    display: grid;
+    height: calc(100vw / 1.98);
+    background-attachment: fixed;
+    position: relative;
+}
+.headfilter {
+    background-color: rgb(0, 0, 0, 0.65);
+    width: 100%;
+    display: grid;
+    height: calc(100vw / 1.98);
+}
+.header h1 {
+    color: #ffffff;
+    font-size: calc(100vw / 20);
+    
+}
+.maintxt {
+    color: #000000;
+    font-size: calc(100vw / 70);
+    text-align: center;
+    width: 60%;
+}
+.pmaintxt {
+    margin-top: 1%;
+}
+.structure {
+    color: #ffffff;
+    font-size: calc(100vw / 50);
+    text-align: center;
+    margin-top: 1%;
+    background-color: #000000;
+    width: 40%;
+    display: grid;
+}
+.structure h1 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.peoplestr {
+    font-size: calc(100vw / 111);
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    width: 80%;
+}
+.peoplestr figcaption {
+    width: 91%;
+    margin-left: 0;
+}
+.peoplestr2 figcaption {
+    width: 90%;
+    margin-left: 0;
+}
+.peoplestr img {
+    width: 90%;
+    margin-top: 5%;
+    
+}
+.people1 {
+    font-weight: 700;
+    font-size: calc(100vw / 70);
+}
+.peoplestr2 {
+    font-size: calc(100vw / 111);
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    width: 80%;
+}
+.peoplestr2 img {
+    width: 90%;
+    margin-top: 5%;
+}
+.quote {
+    width: 50%;
+}
+.quote h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: calc(100vw / 20);
+}
+.quote p {
+    text-align: center;
+    font-weight: 600;
+    font-size: calc(100vw / 50);
+}
+.smalltxt {
+    font-weight: 400;
+    font-size: calc(100vw / 60);
+    margin-top: 2%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+footer {
+    background-color: black;
+    display: grid;
+    height: calc(100vw / 10);
+}
+footer p {
+    color: #ffffff;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .header {
+    height: calc(100vw / 0.6);
+}
+.headfilter {
+    background-color: rgb(0, 0, 0, 0.65);
+    width: 100%;
+    display: grid;
+    height: 100%;
+}
+.header h1 {
+    font-size: calc(100vw / 10);
+}
+.maintxt {
+    font-size: calc(100vw / 20);
+    text-align: center;
+    width: 60%;
+}
+.pmaintxt {
+    margin-top: calc(100vw / 40);
+}
+.structure {
+    font-size: calc(100vw / 20);
+    display: grid;
+    width: 100%;
+    margin-top: 2%;
+}
+.structure h1 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.peoplestr {
+    font-size: calc(100vw / 30);
+    display: block;
+    text-align: center;
+}
+.peoplestr img {
+    width: 90%;
+    margin-top: 5%;
+    display: grid;
+}
+.people1 {  
+    font-size: calc(100vw / 30);
+}
+.peoplestr2 {
+    font-size: calc(100vw / 30);
+    display: block;
+    text-align: center;
+    width: 70%;
+}
+.peoplestr2 img {
+    display: grid;
+}
+.quote h1 {
+    font-size: calc(100vw / 10);
+}
+.quote p {
+    text-align: center;
+    font-weight: 600;
+    font-size: calc(100vw / 20);
+}
+.smalltxt {
+    font-weight: 500;
+    font-size: calc(100vw / 40);
+    margin-top: 2%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+footer {
+    display: grid;
+    height: calc(100vw / 10);
+}
+header nav ul li {
+    font-size: calc(100vw / 25);
+}
+}
